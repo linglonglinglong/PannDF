@@ -1,7 +1,7 @@
-## PannDF
+# PannDF
 Annotation in PDF - improve OpenReview
 
-# To setup
+## To setup
 To run this repository, run the following command:
 ```
 cd client
@@ -24,7 +24,7 @@ If there is any dependency issue, please install the missing dependency manually
     "url-search-params": "^1.1.0"
 ```
 
-# About this app
+## About this app
 This app intends to improve the user experience of OpenReview. The default page shows an improvement of https://openreview.net/forum?id=r1zb29kus7. 
 
 The main features are:
@@ -37,5 +37,8 @@ Unsupported features:
 1. Making new comments
 2. Author is default as only one Author. No authorization features
 
-# Change PDF
+## Change PDF
 Change the DEFAULT_URL at `client/src/components/Doc.js`.
+
+## Special Thank
+This work relies on https://github.com/agentcooper/react-pdf-highlighter for the PDF annotation.
