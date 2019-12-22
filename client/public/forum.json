@@ -1,0 +1,723 @@
+{
+    "notes": [
+        {
+            "id": "ryxLz-ZSCQ",
+            "original": null,
+            "number": 3,
+            "cdate": 1542947086230,
+            "ddate": null,
+            "tcdate": 1542947086230,
+            "tmdate": 1542947086230,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "rJeayQkHCm",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Paper30/Official_Comment",
+            "content": {
+                "comment": "Thanks!"
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Reviewers"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Reviewers"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "rJeayQkHCm",
+            "original": null,
+            "number": 41,
+            "cdate": 1542939365236,
+            "ddate": null,
+            "tcdate": 1542939365236,
+            "tmdate": 1542939365236,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "rJlU3W2ECX",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Comment",
+            "content": {
+                "comment": "Thanks for your reply!\nThe accuracies after retraining are listed in Tab1 and Tab2 in the paper, briefly summarized as follows：\n\nC3D                              Increased err. (%)\n(baseline: 79.94%)          2x          4x\nTP(our impl.)                11.50      21.19\nFP(our impl.)                 4.92      10.96\nOurs                               3.56        7.02\n\n3D-ResNet18             Increased err. (%)\n(baseline: 72.50%)       2x          4x\nTP(our impl.)               5.72     14.24\nFP(our impl.)               1.60       6.92\nOurs                              0.91      3.50",
+                "title": "accuracy after retraining"
+            },
+            "signatures": [
+                "~Yuxin_Zhang1"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "rJlU3W2ECX",
+            "original": null,
+            "number": 40,
+            "cdate": 1542926766168,
+            "ddate": null,
+            "tcdate": 1542926766168,
+            "tmdate": 1542926766168,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "B1l4eIkEAQ",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Comment",
+            "content": {
+                "comment": "Thank you very much for your response!\nWhat about the accuracy after retraining?\nCause people need to make sure that the pruned network could not degrade the accuracy too much. ",
+                "title": "accuracy after retraining"
+            },
+            "signatures": [
+                "~Huixiang_Chen1"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "B1l4eIkEAQ",
+            "original": null,
+            "number": 39,
+            "cdate": 1542874603566,
+            "ddate": null,
+            "tcdate": 1542874603566,
+            "tmdate": 1542874603566,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "rkghxmlTaQ",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Comment",
+            "content": {
+                "comment": "Thanks for your interest! \n\n1.The accuracies after pruning (not retrained) are shown as follows:\n\nC3D                     Increased err. (%)\n                                2x          4x\nTP(our impl.)    14.12%   24.57%\nFP(our impl.)     9.42%    19.61%\nOurs                   4.90%     7.89%\n\n3D-ResNet18    Increased err. (%)\n                                2x          4x\nTP(our impl.)   12.84%   24.31%\nFP(our impl.)    7.62%    16.24%\nOurs                   2.12%     6.20%\n\nThe results show that our method is also better than the other two methods before retraining.\n\n2.The percentage of the shape-sparsity is 50% for 2x acceleration and 75% for 4x acceleration.\n\n3.The pro of structured pruning is that it generates hardware-friendly sparsity which is easy for acceleration. With im2col implementation, we remove all-zero rows and columns and concatenate the remaining ones. Then we apply GEMM with off-the-shelf libraries. While unstructured pruning often produces unstructured and random connections which is hard to implement for speedup on general hardware platforms. Even with sparse matrix kernels, the speedup is very limited. \n\nGenerally, structured pruning focuses on acceleration and unstructured pruning focuses on compression. Pros and cons can depend on specific application scenarios. For an application caring more about low latency, structured pruning counts more; while for an application caring more about storage, unstructured pruning will be better.",
+                "title": "accuracy"
+            },
+            "signatures": [
+                "~Yuxin_Zhang1"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "rkghxmlTaQ",
+            "original": null,
+            "number": 38,
+            "cdate": 1542419188247,
+            "ddate": null,
+            "tcdate": 1542419188247,
+            "tmdate": 1542419188247,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "r1zb29kus7",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Comment",
+            "content": {
+                "comment": "This work presents a structured pruning technique tailored for 3D NN networks since 3D NN leads to massive computation and storage requirement. Seems like this work is very similar to \"Learning Structured Sparsity in Deep Neural Networks NIPS 2016\" in essence.\n\nI have a question about the results. What is the accuracy after pruning? For UCF101. How many (what is the percentage) of filters/shape/channels reduced after pruning?\n\nAnother question is, how do you compare the pros and cons for structured pruning and unstructured pruning (like deep compression by Song Han) for 3D NN?\n\nThanks!",
+                "title": "accuracy"
+            },
+            "signatures": [
+                "~Huixiang_Chen1"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "r1zb29kus7",
+            "original": "BJlZh51uim",
+            "number": 30,
+            "cdate": 1539992233453,
+            "ddate": null,
+            "tcdate": 1539992233453,
+            "tmdate": 1541763609374,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": null,
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Blind_Submission",
+            "content": {
+                "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                "authorids": [
+                    "yuxinzhang@zju.edu.cn",
+                    "huanw@zju.edu.cn",
+                    "luoyang95@zju.edu.cn",
+                    "haoji_hu@zju.edu.cn"
+                ],
+                "authors": [
+                    "Yuxin Zhang",
+                    "Huan Wang",
+                    "Yang Luo",
+                    "Roland Hu"
+                ],
+                "keywords": [
+                    "three-dimensional convolutional neural network",
+                    "regularization-based",
+                    "pruning",
+                    "acceleration"
+                ],
+                "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/Authors"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/Authors"
+            ],
+            "details": {
+                "replyCount": 11,
+                "writable": false,
+                "overwriting": [],
+                "revisions": true,
+                "tags": []
+            }
+        },
+        {
+            "id": "S1x9Hqhe6X",
+            "original": null,
+            "number": 1,
+            "cdate": 1541618242383,
+            "ddate": null,
+            "tcdate": 1541618242383,
+            "tmdate": 1541618242383,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "r1zb29kus7",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Paper30/Decision",
+            "content": {
+                "title": "Acceptance Decision",
+                "decision": "accept"
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            },
+            "tauthor": "OpenReview.net"
+        },
+        {
+            "id": "rJgWoBoG37",
+            "original": null,
+            "number": 2,
+            "cdate": 1540695449273,
+            "ddate": null,
+            "tcdate": 1540695449273,
+            "tmdate": 1540695772816,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "BkepWJR6im",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Paper30/Official_Comment",
+            "content": {
+                "comment": "Thanks to the Reviewer for the valuable comments.\n\nWe believe the proposed method is very useful for the acceleration of 3D-CNN. TP and FP are two popular pruning methods closely related with our method. We believe that these two methods are more comparable to our method than other acceleration methods (such as Low-rank Decomposition and Knowledge Distillation). That’s the reason why we chose these two methods to compare. Admittedly, given the rapid development of this area, there are more recent pruning methods (such as [*1-*3]), but due to the limited time, we haven’t compared with them on 3D-CNN, which we leave for the future work. Thanks to the Reviewer for pointing this out.\n\nIn addition, since TP and FP didn’t experiment on C3D and 3D-ResNet18 in their papers, we have to implement their methods ourselves. TP and FP are quite straight to implement, so we believe our comparison is affirmatively valid.\n\n[*1] Liu, Zhuang, et al. \"Learning efficient convolutional networks through network slimming.\" Computer Vision (ICCV), 2017 IEEE International Conference on. IEEE, 2017.\n[*2] He, Yihui, et al. \"Channel pruning for accelerating very deep neural networks.\" International Conference on Computer Vision (ICCV). Vol. 2. No. 6. 2017.\n[*3] Gordon, Ariel, et al. \"Morphnet: Fast & simple resource-constrained structure learning of deep networks.\" IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2018."
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/Authors"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/Authors"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "SklgDcU1hm",
+            "original": null,
+            "number": 3,
+            "cdate": 1540479576430,
+            "ddate": null,
+            "tcdate": 1540479576430,
+            "tmdate": 1540479576430,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "r1zb29kus7",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Paper30/Official_Review",
+            "content": {
+                "title": "No Title",
+                "review": {
+                    "summary": "This work extends the pruning method in [9] to 3D CNN. By assigning different regularizations for the weight groups, the method is able to  remove unimportant groups to the networks. Although the method is not new, it is rather important for 3D CNN as it widely applied in many applications in CV. The experiments show promising results of this method in the sub-area. I am fine to accept this paper."
+                },
+                "rating": "3: Marginally above acceptance threshold",
+                "confidence": "2: The reviewer is fairly confident that the evaluation is correct"
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/AnonReviewer2"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/AnonReviewer2"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "BkepWJR6im",
+            "original": null,
+            "number": 2,
+            "cdate": 1540378373374,
+            "ddate": null,
+            "tcdate": 1540378373374,
+            "tmdate": 1540378373374,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "r1zb29kus7",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Paper30/Official_Review",
+            "content": {
+                "title": "   ",
+                "review": {
+                    "summary": "The authors propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network.\n",
+                    "pro": "The authors implement the regularization based method for 3D CNN acceleration. According to the experimental results, the proposed method achieves better performance than other two state-of-the-art methods: TP and FP. ",
+                    "con": "However, the experiment part is somewhat insufficient. The two comparing methods are implemented by authors themselves and old (2016). \n"
+                },
+                "rating": "3: Marginally above acceptance threshold",
+                "confidence": "2: The reviewer is fairly confident that the evaluation is correct"
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/AnonReviewer3"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/AnonReviewer3"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "BkxO5jK6sX",
+            "original": null,
+            "number": 1,
+            "cdate": 1540361103781,
+            "ddate": null,
+            "tcdate": 1540361103781,
+            "tmdate": 1540361103781,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "S1lS3bx3jm",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Paper30/Official_Comment",
+            "content": {
+                "comment": "We thank Reviewer for the constructive comments. \n\n1. We refer to Wang’s article[9] to get the Eq.(2), the main reason for its setting is as follows:\n(1) This function must be decremented because we need to decrease the regularization parameter of the important groups.\n(2) This function needs to be equal to 0 when the average rank is $RN_g$, which ensures that at the end of pruning, there are exactly $RN_g$ weight groups to be pruned. Namely, if the average ranks less than $RN_g$, we need to increase their regularization parameters to further decrease their L1 norms; and those with greater L1 norms and rank above $RN_g$, we need to decrease regularization parameters to further increase their L1 norms. Since we decrease the L1 norms of weight groups whose ranks are less than $RN_g$ and increase the L1 norms of weight groups whose ranks are greater than $RN_g$, there should be $RN_g$ pruned weight groups at the convergence point.\n\n2. The reason for setting $A$ to $0.5*lambda$ is that we want to make a connection between $A$ and the weight decay. The weight decay is also an important hyper-parameter in regularization. This setting prevents us from blindly setting $A$ when experimenting with different models. $A$ should be on the same order of magnitude as the weight decay while the specific number 0.5 is not so important. However, $A$ can control the speed of convergence. Greater value of $A$ results in faster convergence.\n\n3. For a 2-D convolutional neural network with L layers, the weights of the lth convolutional layer W has the shape of N(l)*C(l)*W(l)*H(l). Here N(l), C(l), W(l) and H(l) are the dimensions along the axes of filter, channel, spatial width and spatial height. The feature map of l+1 layer has the shape of w(l)*h(l)*N(l). The computational cost will be W(l)*H(l)*C(l)*w(l)*h(l)*N(l).\n\nWhile for a 3-D convolutional neural network with L layers, the weights of the lth convolutional layer W has the shape of N(l)*C(l)*W(l)*H(l)*D(l). Here N(l), C(l), W(l), H(l) and D(l) are the dimensions along the axes of filter, channel, spatial width, spatial height and spatial depth. The feature map of l+1 layer has the shape of w(l)*h(l)*d(l)*N(l). The computational cost will be W(l)*H(l)*D(l)*C(l)*w(l)*h(l)*d(l)*N(l).\n \n4. We are sorry for the typo, the $\\omega^\\{g\\}$ should be $W^{(l)}_g$, which represents the different groups of weights. We have modified it in the latest uploaded article.\n"
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/Authors"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/Authors"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        },
+        {
+            "id": "S1lS3bx3jm",
+            "original": null,
+            "number": 1,
+            "cdate": 1540256173407,
+            "ddate": null,
+            "tcdate": 1540256173407,
+            "tmdate": 1540256173407,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": "r1zb29kus7",
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Paper30/Official_Review",
+            "content": {
+                "title": " ",
+                "review": {
+                    "summary": null,
+                    "pro": "\n- Simple idea\n- Clearly presented\n- Significant results\n\n",
+                    "con": "\n- Conceptual originality limited, though simplicity of the idea is a plus.  \n- Lack of intuition underlying the heuristics of multiplier adjustment (Eq. 2), and lack of details on the rationales and practical considerations in setting hyperparameter $A = 0.5 \\lambda$.  \n- Computational acceleration compared to TP and FP only briefly mentioned, how does cost scale from 2D convolution to 3D?\n- Potential typo?  Line 34, what is $\\omega^\\{g\\}$?  "
+                },
+                "rating": "4: Top 50% of accepted papers, clear accept",
+                "confidence": "2: The reviewer is fairly confident that the evaluation is correct"
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/AnonReviewer1"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/AnonReviewer1"
+            ],
+            "details": {
+                "replyCount": 0,
+                "writable": false,
+                "overwriting": [],
+                "revisions": false,
+                "forumContent": {
+                    "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                    "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                    "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                    "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                    "authorids": [
+                        "yuxinzhang@zju.edu.cn",
+                        "huanw@zju.edu.cn",
+                        "luoyang95@zju.edu.cn",
+                        "haoji_hu@zju.edu.cn"
+                    ],
+                    "authors": [
+                        "Yuxin Zhang",
+                        "Huan Wang",
+                        "Yang Luo",
+                        "Roland Hu"
+                    ],
+                    "keywords": [
+                        "three-dimensional convolutional neural network",
+                        "regularization-based",
+                        "pruning",
+                        "acceleration"
+                    ],
+                    "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+                },
+                "tags": []
+            }
+        }
+    ],
+    "count": 12
+}

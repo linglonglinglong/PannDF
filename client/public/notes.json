@@ -1,0 +1,53 @@
+{
+    "notes": [
+        {
+            "_id": "5bca6aa94d2eeddb6194993e",
+            "id": "r1zb29kus7",
+            "original": "BJlZh51uim",
+            "number": 30,
+            "cdate": 1539992233453,
+            "ddate": null,
+            "tcdate": 1539992233453,
+            "tmdate": 1541763609374,
+            "tddate": null,
+            "forum": "r1zb29kus7",
+            "replyto": null,
+            "invitation": "NIPS.cc/2018/Workshop/CDNNRIA/-/Blind_Submission",
+            "content": {
+                "title": "Three Dimensional Convolutional Neural Network Pruning with Regularization-Based Method",
+                "abstract": " In recent years, three-dimensional convolutional neural network (3D CNN) are intensively applied in the video analysis and action recognition and receives good performance. However, 3D CNN leads to massive computation and storage consumption, which hinders its deployment on mobile and embedded devices. In this paper, we propose a three-dimensional regularization-based pruning method to assign different regularization parameters to different weight groups based on their importance to the network. Our experiments show that the proposed method outperforms other popular methods in this area.",
+                "paperhash": "zhang|three_dimensional_convolutional_neural_network_pruning_with_regularizationbased_method",
+                "TL;DR": "In this paper, we propose a three-dimensional regularization-based pruning method to accelerate the 3D-CNN.",
+                "authorids": [
+                    "yuxinzhang@zju.edu.cn",
+                    "huanw@zju.edu.cn",
+                    "luoyang95@zju.edu.cn",
+                    "haoji_hu@zju.edu.cn"
+                ],
+                "authors": [
+                    "Yuxin Zhang",
+                    "Huan Wang",
+                    "Yang Luo",
+                    "Roland Hu"
+                ],
+                "keywords": [
+                    "three-dimensional convolutional neural network",
+                    "regularization-based",
+                    "pruning",
+                    "acceleration"
+                ],
+                "pdf": "/pdf/4303cafc585e6d9e0738a283a208faea6c74f36e.pdf"
+            },
+            "signatures": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/Authors"
+            ],
+            "readers": [
+                "everyone"
+            ],
+            "nonreaders": [],
+            "writers": [
+                "NIPS.cc/2018/Workshop/CDNNRIA/Paper30/Authors"
+            ]
+        }
+    ]
+}

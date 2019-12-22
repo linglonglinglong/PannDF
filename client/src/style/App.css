@@ -1,0 +1,75 @@
+ul {
+  list-style-type: none;
+}
+
+.comments{
+  width: 100%;
+  margin: 20px 0px;
+  padding: 0;
+}
+
+.ind-comm {
+  background-color:#fff9dd;
+  margin: 20px 0px;
+  padding: 20px;
+}
+
+.doc-page{
+  margin: 40px 60px;
+}
+
+.doc-page h1{
+  font-weight: bold;
+}
+
+.doc-page h3{
+  font-style: italic;
+}
+
+.note-content-field{
+  font-size: 18px;
+  font-weight: bold;
+  color: maroon;
+}
+
+.note-review-field{
+  font-size: 18px;
+  font-weight: bold;
+  color:black;
+}
+
+.note-content-value{
+  font-size: 18px;
+  white-space: pre-wrap;
+}
+
+.replies{
+  padding-left: 20px;
+  margin: 10px 0px;
+}
+
+.ind-rep{
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.doc-filter{
+  font-size: large;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.doc-filter ul{
+  margin: 0;
+  display: inline;
+}
+
+.doc-filter ul label{
+  margin: 5px 15px;
+}
+
+.doc-filter ul label input{
+  transform: scale(2);
+  margin-right: 10px;
+}
